@@ -2,7 +2,7 @@
 import browserSync from 'browser-sync';
 
 // Modules
-import { projectFolder } from './path.js';
+import { projectFolder } from './path.mjs';
 
 const browsersync = () => {
   browserSync.init({

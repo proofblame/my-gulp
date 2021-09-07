@@ -9,7 +9,7 @@ import cleanCSS from 'gulp-clean-css';
 import rename from 'gulp-rename';
 
 // Modules
-import { path }     from './path.js';
+import { path }     from './path.mjs';
 
 // Const
 const { dest, src } = pkg;

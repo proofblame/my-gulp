@@ -7,7 +7,7 @@ import rename from 'gulp-rename';
 import babel from 'gulp-babel';
 
 // Modules
-import { path } from './path.js';
+import { path } from './path.mjs';
 
 // Const
 const { dest, src } = pkg;

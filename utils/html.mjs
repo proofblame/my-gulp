@@ -5,7 +5,7 @@ import fileinclude  from 'gulp-file-include';
 import  webpHTML    from 'gulp-webp-html';
 
 // Modules
-import { path }     from './path.js';
+import { path }     from './path.mjs';
 
 // Const
 const { dest, src } = pkg;
