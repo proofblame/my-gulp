@@ -1,3 +1,4 @@
+// Don't delete
 function testWebP(callback) {
 	var webP = new Image();
 	webP.onload = webP.onerror = function () {
