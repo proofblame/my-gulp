@@ -1,6 +1,32 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BriosoPro Italic";
+  font-display: swap;
+  src: url("../fonts/BriosoPro Italic.woff") format("woff"), url("../fonts/BriosoPro Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 ._no-webp div {
   border-image: url("../images/Boston-Wallpaper-HQ.jpeg"); }
+
 div {
   -o-border-image: url("../images/Boston-Wallpaper-HQ.jpeg");
 }
+
 ._webp div { border-image: url(../images/Boston-Wallpaper-HQ.webp); }
