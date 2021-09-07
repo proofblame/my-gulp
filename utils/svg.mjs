@@ -22,7 +22,6 @@ const svg = () => {
   }
   ))
   .pipe(dest(path.build.icons))
-  .pipe(browserSync.stream())
 }
 
 export default svg;

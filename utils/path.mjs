@@ -1,4 +1,9 @@
-const projectFolder   = './dist'
+// Modules
+import globPath, {basename} from 'path';
+
+// Const
+const __dirname       = globPath.resolve();
+const projectFolder   = basename(__dirname);
 const sourceFolder    = "./src";
 const path            = {
   build: {

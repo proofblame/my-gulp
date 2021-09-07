@@ -1,3 +1,4 @@
+// Modules
 import pkg          from 'gulp';
 import browserSync  from 'browser-sync';
 import sass from 'sass';
@@ -8,7 +9,6 @@ import webpCSS from 'gulp-webpcss';
 import cleanCSS from 'gulp-clean-css'; 
 import rename from 'gulp-rename';
 
-// Modules
 import { path }     from './path.mjs';
 
 // Const

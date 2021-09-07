@@ -1,14 +1,17 @@
-// Plugins
-import browserSync from 'browser-sync';
-
 // Modules
-import { projectFolder } from './path.mjs';
+import browserSync from 'browser-sync';
+import {
+  path
+} from './path.mjs';
 
 const browsersync = () => {
   browserSync.init({
-      server: {
-          baseDir: `${projectFolder}/`,
-      }
+    server: {
+      baseDir: path.build.html,
+    },
+    port: 3000,
+    notify: false,
+    online: true,
   });
 }
 

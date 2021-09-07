@@ -47,7 +47,6 @@ const images = () => {
       })
     )
     .pipe(dest(path.build.img))
-    .pipe(browserSync.stream())
 }
 
 export default images;
