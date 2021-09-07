@@ -23,7 +23,8 @@ function fonts() {
           let fontname = items[i].split('.');
           fontname = fontname[0];
           if (c_fontname != fontname) {
-            fileSystem.appendFile(`${sourceFolder}/scss/fonts.scss`, '@include font("' + fontname + '", "' + fontname + '", "400", "normal");\r\n', callback);
+            fileSystem.appendFile(`${sourceFolder}/scss/fonts.scss`, 
+            `@include font("${fontname}", "${fontname}", "400", "normal");\r\n`, callback);
           }
           c_fontname = fontname;
         }
