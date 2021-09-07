@@ -8,8 +8,9 @@ import  css from './utils/css.mjs';
 import  script from './utils/script.mjs';
 import  images from './utils/images.mjs';
 import  svg from './utils/svg.mjs';
-import  fonts from './utils/fonts.mjs';
+import  ttf from './utils/ttf.mjs';
 import  otf from './utils/otf.mjs';
+import  fonts from './utils/fonts.mjs';
 
 export {
   browsersync,
@@ -18,6 +19,7 @@ export {
   script,
   images,
   svg,
-  fonts,
-  otf
+  ttf,
+  otf,
+  fonts
 }
